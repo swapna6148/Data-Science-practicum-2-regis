@@ -20,3 +20,7 @@ this week, I created a QQ plot and a scatter plot to visualize the residuals of 
 Also performed hyperparameter tuning using the RandomizedSearchCV function. Which is important to find the best combination of hyperparameters for the model to improve its performance.
 
 Finally, we selected  the final model using the best hyperparameters found during hyperparameter tuning. This final model will be ready to be deployed for prediction of house prices in the coming week.
+
+Next, I have saved the trained model as a pickle file named 'model.pkl'. The 'predict_rent' function takes a dataframe as input, and applies the trained model to predict the rent of the house based on the pre-processed data. The predicted rent values are returned as a pandas dataframe named 'out'.
+
+Finally, the 'out' dataframe is saved as a CSV file named 'validated_prices.csv' using the 'to_csv' function.
