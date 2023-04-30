@@ -1,4 +1,6 @@
 # Data-Science-practicum-2-regis
+# Accomdation Fare Predictor
+
 Overview:
 
 In my project my first step is to Perform EDA (Exploratory Data Analysis), data cleaning, and data processing The code first reads in the datasets using pandas.
